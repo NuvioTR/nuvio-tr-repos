@@ -1,0 +1,143 @@
+{
+  "catalogs": [
+    {
+      "id": "catalog-izlelan",
+      "name": "izlelan Katalog",
+      "authors": ["ayruki"],
+      "description": "izlelan eklentileri için uyumlu TMDB ve Youtube tabanlı katalog",
+      "repoUrl": "https://github.com/ayruki",
+      "iconUrl": "",
+      "manifestUrl": "https://katalog.izlelan.com/manifest.json",
+      "dependencies": ["plugin-izlelan"]
+    },
+    {
+      "id": "catalog-izlemeli",
+      "name": "izlemeli.com Katalog",
+      "authors": ["izlemeli"],
+      "description": "izlemeli.com Nuvio Kataloğu",
+      "repoUrl": "https://github.com/izlemeli",
+      "iconUrl": "",
+      "manifestUrl": "https://izlemeli.github.io/nuvio/tr/manifest.json"
+    }
+  ],
+  "collections": [
+    {
+      "id": "collection-izlemeli",
+      "name": "izlemeli.com Koleksiyon",
+      "authors": ["izlemeli"],
+      "description": "izlemeli.com Nuvio Kolleksiyonları.",
+      "repoUrl": "https://github.com/izlemeli",
+      "iconUrl": "",
+      "collectionUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "plugin-manitux",
+      "name": "Manitux Nuvio Eklentileri",
+      "authors": ["manitux"],
+      "description": "Katalog, arama ve yorum desteği sağlayan eklentiler.",
+      "repoUrl": "https://github.com/manitux-app/nuvio-test-plugins",
+      "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/manitux-app/nuvio-test-plugins/refs/heads/main/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": true
+      }
+    },
+    {
+      "id": "plugin-izlelan",
+      "name": "izlelan Eklentileri",
+      "authors": ["ayruki"],
+      "description": "izlelan kataloğu ile tam uyumlu eklentiler.",
+      "repoUrl": "https://github.com/ayruki",
+      "iconUrl": "",
+      "manifestUrl": "https://izlelan.com/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-patron",
+      "name": "patr0n Eklentileri",
+      "authors": ["patr0n"],
+      "description": "patr0n Nuvio Eklentileri.",
+      "repoUrl": "https://github.com/patr0nq/nuvioaddons",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/0/899.jpg?1777920089",
+      "manifestUrl": "https://raw.githubusercontent.com/patr0nq/nuvioaddons/refs/heads/main/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+     {
+      "id": "plugin-wiojelt-wiosinema",
+      "name": "Wiojelt WioSinema Eklentileri",
+      "authors": ["wiojelt"],
+      "description": "Wiojelt Nuvio Sinema Eklentileri.",
+      "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/main/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wiocinema",
+      "name": "Wiojelt WioCinema Eklentileri",
+      "authors": ["wiojelt"],
+      "description": "Wiojelt Nuvio Cinema Eklentileri.",
+      "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/main/wiocinema/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    }
+    ,
+    {
+      "id": "plugin-wiojelt-wiospor",
+      "name": "Wiojelt WioSpor Eklentileri",
+      "authors": ["wiojelt"],
+      "description": "Wiojelt Nuvio Spor Eklentileri.",
+      "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/live/wiospor/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-manitux-cs",
+      "name": "Manitux Cloudstream Eklentileri",
+      "authors": ["manitux"],
+      "description": "Katalog, arama ve yayın desteği sağlayan CS eklentileri.",
+      "repoUrl": "https://github.com/manitux-app/cs-plugins",
+      "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/manitux-app/cs-plugins/refs/heads/main/repo.json",
+      "origin": "Cloudstream",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    }
+  ]
+}
