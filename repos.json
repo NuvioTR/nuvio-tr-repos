@@ -106,22 +106,6 @@
         "search": false,
         "comments": false
       }
-    }
-    ,
-    {
-      "id": "plugin-wiojelt-wiospor",
-      "name": "Wiojelt WioSpor Eklentileri",
-      "authors": ["wiojelt"],
-      "description": "Wiojelt Nuvio Spor Eklentileri.",
-      "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
-      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
-      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/live/wiospor/manifest.json",
-      "supports": {
-        "stream": true,
-        "catalog": false,
-        "search": false,
-        "comments": false
-      }
     },
     {
       "id": "plugin-manitux-cs",
