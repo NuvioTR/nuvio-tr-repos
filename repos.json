@@ -3,17 +3,23 @@
     {
       "id": "catalog-izlelan",
       "name": "izlelan Katalog",
-      "authors": ["ayruki"],
+      "authors": [
+        "ayruki"
+      ],
       "description": "izlelan eklentileri için uyumlu TMDB ve Youtube tabanlı katalog",
       "repoUrl": "https://github.com/ayruki",
       "iconUrl": "",
       "manifestUrl": "https://katalog.izlelan.com/manifest.json",
-      "dependencies": ["plugin-izlelan"]
+      "dependencies": [
+        "plugin-izlelan"
+      ]
     },
     {
       "id": "catalog-izlemeli",
       "name": "izlemeli.com Katalog",
-      "authors": ["izlemeli"],
+      "authors": [
+        "izlemeli"
+      ],
       "description": "izlemeli.com Nuvio Kataloğu",
       "repoUrl": "https://github.com/izlemeli",
       "iconUrl": "",
@@ -24,7 +30,9 @@
     {
       "id": "collection-izlemeli",
       "name": "izlemeli.com Koleksiyon",
-      "authors": ["izlemeli"],
+      "authors": [
+        "izlemeli"
+      ],
       "description": "izlemeli.com Nuvio Kolleksiyonları.",
       "repoUrl": "https://github.com/izlemeli",
       "iconUrl": "",
@@ -35,7 +43,9 @@
     {
       "id": "plugin-manitux",
       "name": "Manitux Nuvio Eklentileri",
-      "authors": ["manitux"],
+      "authors": [
+        "manitux"
+      ],
       "description": "Katalog, arama ve yorum desteği sağlayan eklentiler.",
       "repoUrl": "https://github.com/manitux-app/nuvio-test-plugins",
       "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
@@ -50,7 +60,9 @@
     {
       "id": "plugin-izlelan",
       "name": "izlelan Eklentileri",
-      "authors": ["ayruki"],
+      "authors": [
+        "ayruki"
+      ],
       "description": "izlelan kataloğu ile tam uyumlu eklentiler.",
       "repoUrl": "https://github.com/ayruki",
       "iconUrl": "",
@@ -65,7 +77,9 @@
     {
       "id": "plugin-patron",
       "name": "patr0n Eklentileri",
-      "authors": ["patr0n"],
+      "authors": [
+        "patr0n"
+      ],
       "description": "patr0n Nuvio Eklentileri.",
       "repoUrl": "https://github.com/patr0nq/nuvioaddons",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/0/899.jpg?1777920089",
@@ -77,10 +91,12 @@
         "comments": false
       }
     },
-     {
+    {
       "id": "plugin-wiojelt-wiosinema",
       "name": "Wiojelt WioSinema Eklentileri",
-      "authors": ["wiojelt"],
+      "authors": [
+        "wiojelt"
+      ],
       "description": "Wiojelt Nuvio Sinema Eklentileri.",
       "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
@@ -95,7 +111,9 @@
     {
       "id": "plugin-wiojelt-wiocinema",
       "name": "Wiojelt WioCinema Eklentileri",
-      "authors": ["wiojelt"],
+      "authors": [
+        "wiojelt"
+      ],
       "description": "Wiojelt Nuvio Cinema Eklentileri.",
       "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
@@ -110,7 +128,9 @@
     {
       "id": "plugin-manitux-cs",
       "name": "Manitux Cloudstream Eklentileri",
-      "authors": ["manitux"],
+      "authors": [
+        "manitux"
+      ],
       "description": "Katalog, arama ve yayın desteği sağlayan CS eklentileri.",
       "repoUrl": "https://github.com/manitux-app/cs-plugins",
       "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
@@ -120,6 +140,23 @@
         "stream": true,
         "catalog": true,
         "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-anthology",
+      "name": "Anthology Nuvio ve Stremio için Eklentiler",
+      "authors": [
+        "falsisdev"
+      ],
+      "description": "Nuvio ve Stremio için Doğrulanmış Türkçe Film, Dizi, Anime, Canlı TV ve Zengin Katalog Deposu.",
+      "repoUrl": "https://github.com/falsisdev/anthology",
+      "iconUrl": "https://avatars.githubusercontent.com/u/63756985?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/falsisdev/anthology/main/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
         "comments": false
       }
     }
