@@ -1,5 +1,5 @@
 name: "Yeni Depo"
-description: "Yeni bir Katalog, Koleksiyon veya Eklenti deposu eklemek için bu şablonu kullanın."
+description: "Yeni bir Katalog, Kolleksiyon veya Eklenti deposu ekleyin. İlgili JSON'u düzenleyip gönderin."
 title: "Yeni Depo: "
 labels: ["yeni-depo"]
 assignees: []
@@ -8,14 +8,16 @@ body:
     attributes:
       value: |
         ## Yeni Depo Ekleme
-        Lütfen aşağıdaki alanları eksiksiz doldurun. Her alan için geçerli bir **JSON** giriniz.
+        Aşağıdaki alanlardan eklemek istediklerinizi **düzenleyerek** gönderin.
+        Kullanmak istemediğiniz alanları olduğu gibi bırakabilir veya içeriğini temizleyebilirsiniz.
 
   - type: textarea
     id: katalog
     attributes:
       label: "Katalog"
-      description: "Katalog JSON'unu giriniz."
-      placeholder: |
+      description: "Katalog JSON'unu düzenleyin."
+      render: json
+      value: |
         {
           "id": "catalog-test",
           "name": "TestKatalog",
@@ -26,16 +28,16 @@ body:
           "manifestUrl": "https://katalog.test.com/manifest.json",
           "dependencies": []
         }
-      render: json
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: kolleksiyon
     attributes:
       label: "Kolleksiyon"
-      description: "Koleksiyon JSON'unu giriniz."
-      placeholder: |
+      description: "Koleksiyon JSON'unu düzenleyin."
+      render: json
+      value: |
         {
           "id": "collection-test",
           "name": "Test Koleksiyon",
@@ -45,16 +47,16 @@ body:
           "iconUrl": "",
           "collectionUrl": "https://raw.githubusercontent.com/test/nuvio/refs/heads/main/collections.json"
         }
-      render: json
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: eklenti
     attributes:
       label: "Eklenti"
-      description: "Eklenti JSON'unu giriniz."
-      placeholder: |
+      description: "Eklenti JSON'unu düzenleyin."
+      render: json
+      value: |
         {
           "id": "plugin-test",
           "name": "Test Nuvio Eklentileri",
@@ -70,6 +72,5 @@ body:
             "comments": true
           }
         }
-      render: json
     validations:
-      required: true
+      required: false
