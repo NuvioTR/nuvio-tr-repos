@@ -1,0 +1,75 @@
+name: "Yeni Depo"
+description: "Yeni bir Katalog, Koleksiyon veya Eklenti deposu eklemek için bu şablonu kullanın."
+title: "Yeni Depo: "
+labels: ["yeni-depo"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Yeni Depo Ekleme
+        Lütfen aşağıdaki alanları eksiksiz doldurun. Her alan için geçerli bir **JSON** giriniz.
+
+  - type: textarea
+    id: katalog
+    attributes:
+      label: "Katalog"
+      description: "Katalog JSON'unu giriniz."
+      placeholder: |
+        {
+          "id": "catalog-test",
+          "name": "TestKatalog",
+          "authors": ["test"],
+          "description": "Test Kataloğu",
+          "repoUrl": "https://github.com/test",
+          "iconUrl": "",
+          "manifestUrl": "https://katalog.test.com/manifest.json",
+          "dependencies": []
+        }
+      render: json
+    validations:
+      required: true
+
+  - type: textarea
+    id: kolleksiyon
+    attributes:
+      label: "Kolleksiyon"
+      description: "Koleksiyon JSON'unu giriniz."
+      placeholder: |
+        {
+          "id": "collection-test",
+          "name": "Test Koleksiyon",
+          "authors": ["test"],
+          "description": "Test Koleksiyonu.",
+          "repoUrl": "https://github.com/test",
+          "iconUrl": "",
+          "collectionUrl": "https://raw.githubusercontent.com/test/nuvio/refs/heads/main/collections.json"
+        }
+      render: json
+    validations:
+      required: true
+
+  - type: textarea
+    id: eklenti
+    attributes:
+      label: "Eklenti"
+      description: "Eklenti JSON'unu giriniz."
+      placeholder: |
+        {
+          "id": "plugin-test",
+          "name": "Test Nuvio Eklentileri",
+          "authors": ["test"],
+          "description": "Test amaçlı katalog, arama ve yorum desteği sağlayan eklentiler.",
+          "repoUrl": "https://github.com/test/nuvio-test-plugins",
+          "iconUrl": "https://avatars.githubusercontent.com/u/000000000?s=200&v=4",
+          "manifestUrl": "https://raw.githubusercontent.com/test/nuvio-test-plugins/refs/heads/main/manifest.json",
+          "supports": {
+            "stream": true,
+            "catalog": true,
+            "search": true,
+            "comments": true
+          }
+        }
+      render: json
+    validations:
+      required: true
