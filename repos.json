@@ -166,10 +166,28 @@
       "authors": [
         "wiojelt"
       ],
-      "description": "Katalog, arama ve yayın desteği sağlayan CS eklentileri.",
+      "description": "Film, dizi, anime ve belgesel sağlayıcısı.",
       "repoUrl": "https://github.com/Wiojelt/TurkSinema",
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/TurkSinema/main/repo.json",
+      "origin": "Cloudstream",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wiokids-cs",
+      "name": "Wiojelt Wiokids Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Çizgi film, animasyon ve çocuk içerikleri.",
+      "repoUrl": "https://github.com/Wiojelt/TurkSinema",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioKids/main/repo.json",
       "origin": "Cloudstream",
       "supports": {
         "stream": true,
