@@ -126,23 +126,6 @@
       }
     },
     {
-      "id": "plugin-anthology",
-      "name": "Anthology Nuvio ve Stremio için Eklentiler",
-      "authors": [
-        "falsisdev"
-      ],
-      "description": "Nuvio ve Stremio için Doğrulanmış Türkçe Film, Dizi, Anime, Canlı TV ve Zengin Katalog Deposu.",
-      "repoUrl": "https://github.com/falsisdev/anthology",
-      "iconUrl": "https://avatars.githubusercontent.com/u/63756985?v=4",
-      "manifestUrl": "https://raw.githubusercontent.com/falsisdev/anthology/main/manifest.json",
-      "supports": {
-        "stream": true,
-        "catalog": false,
-        "search": false,
-        "comments": false
-      }
-    },
-    {
       "id": "plugin-manitux-cs",
       "name": "Manitux Cloudstream Eklentileri",
       "authors": [
@@ -185,9 +168,27 @@
         "wiojelt"
       ],
       "description": "Çizgi film, animasyon ve çocuk içerikleri.",
-      "repoUrl": "https://github.com/Wiojelt/TurkSinema",
+      "repoUrl": "https://github.com/Wiojelt/WioKids",
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioKids/main/repo.json",
+      "origin": "Cloudstream",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wioanime-cs",
+      "name": "Wiojelt WioAnime Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Anime içerikleri.",
+      "repoUrl": "https://github.com/Wiojelt/WioAnime",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioAnime/builds/repo.json",
       "origin": "Cloudstream",
       "supports": {
         "stream": true,

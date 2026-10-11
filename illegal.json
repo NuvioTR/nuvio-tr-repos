@@ -1,0 +1,17 @@
+{
+    "id": "plugin-anthology",
+    "name": "Anthology Nuvio ve Stremio için Eklentiler",
+    "authors": [
+        "falsisdev"
+    ],
+    "description": "Nuvio ve Stremio için Doğrulanmış Türkçe Film, Dizi, Anime, Canlı TV ve Zengin Katalog Deposu.",
+    "repoUrl": "https://github.com/falsisdev/anthology",
+    "iconUrl": "https://avatars.githubusercontent.com/u/63756985?v=4",
+    "manifestUrl": "https://raw.githubusercontent.com/falsisdev/anthology/main/manifest.json",
+    "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+    }
+}
