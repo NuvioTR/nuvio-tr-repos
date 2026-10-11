@@ -169,7 +169,7 @@
       "description": "Katalog, arama ve yayın desteği sağlayan CS eklentileri.",
       "repoUrl": "https://github.com/Wiojelt/TurkSinema",
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
-      "manifestUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/TurkSinema/main/repo.json",
       "origin": "Cloudstream",
       "supports": {
         "stream": true,
