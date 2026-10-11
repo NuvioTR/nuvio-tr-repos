@@ -144,6 +144,24 @@
       }
     },
     {
+      "id": "plugin-wiojelt-turksinema-cs",
+      "name": "Wiojelt Turksinema Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Katalog, arama ve yayın desteği sağlayan CS eklentileri.",
+      "repoUrl": "https://github.com/Wiojelt/TurkSinema",
+      "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
+      "manifestUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "origin": "Cloudstream",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
       "id": "plugin-anthology",
       "name": "Anthology Nuvio ve Stremio için Eklentiler",
       "authors": [
