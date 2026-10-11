@@ -159,6 +159,24 @@
         "search": false,
         "comments": false
       }
+    },
+    {
+      "id": "plugin-mrc",
+      "name": "MRC Cloudstream Eklentileri",
+      "authors": [
+        "test"
+      ],
+      "description": "MRC CloudStream için Türkçe film,dizi ve anime eklentileri.",
+      "repoUrl": "https://github.com/lepotane/MRC-builds",
+      "iconUrl": "https://avatars.githubusercontent.com/u/6125722?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/lepotane/MRC-builds/builds/repo.json",
+      "origin": "Cloudstream",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
     }
   ]
 }
