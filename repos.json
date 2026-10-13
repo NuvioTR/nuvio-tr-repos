@@ -214,6 +214,24 @@
         "search": true,
         "comments": false
       }
+    },
+    {
+      "id": "plugin-neo",
+      "name": "NeO Cloudstream Eklentileri",
+      "authors": [
+        "neowatch"
+      ],
+      "description": "Türkçe içerikli eklenti havuzu.",
+      "repoUrl": "https://github.com/neoser1984/neowatch",
+      "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/neoser1984/neowatch/main/repo.json",
+      "origin": "Cloudstream",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
     }
   ]
 }
