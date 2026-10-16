@@ -153,6 +153,7 @@
       "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
       "manifestUrl": "https://raw.githubusercontent.com/manitux-app/cs-plugins/refs/heads/main/repo.json",
       "origin": "Cloudstream",
+        
       "supports": {
         "stream": true,
         "catalog": true,
@@ -171,6 +172,7 @@
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioSinema/builds/repo.json",
       "origin": "Cloudstream",
+      "shortCode": "!wiosinema",
       "supports": {
         "stream": true,
         "catalog": true,
@@ -189,6 +191,7 @@
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/TurkSinema/main/repo.json",
       "origin": "Cloudstream",
+      "shortCode": "!turksinema",
       "supports": {
         "stream": true,
         "catalog": true,
@@ -207,6 +210,7 @@
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioKids/main/repo.json",
       "origin": "Cloudstream",
+      "shortCode": "!wiokids",
       "supports": {
         "stream": true,
         "catalog": true,
@@ -225,6 +229,7 @@
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioAnime/builds/repo.json",
       "origin": "Cloudstream",
+      "shortCode": "!wioanime",
       "supports": {
         "stream": true,
         "catalog": true,
@@ -243,6 +248,7 @@
       "iconUrl": "https://avatars.githubusercontent.com/u/6125722?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/lepotane/MRC-builds/builds/repo.json",
       "origin": "Cloudstream",
+      "shortCode": "!mrc-cs",
       "supports": {
         "stream": true,
         "catalog": true,
@@ -261,6 +267,7 @@
       "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
       "manifestUrl": "https://raw.githubusercontent.com/neoser1984/neowatch/main/repo.json",
       "origin": "Cloudstream",
+      "shortCode": "!neowatch",
       "supports": {
         "stream": true,
         "catalog": true,
