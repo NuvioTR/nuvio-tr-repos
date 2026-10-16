@@ -144,6 +144,24 @@
       }
     },
     {
+      "id": "plugin-wiojelt-wiosinema-cs",
+      "name": "Wiojelt WioSinema Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Film, dizi, anime ve belgesel sağlayıcısı.",
+      "repoUrl": "https://github.com/Wiojelt/WioSinema",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioSinema/builds/repo.json",
+      "origin": "Cloudstream",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
       "id": "plugin-wiojelt-turksinema-cs",
       "name": "Wiojelt Turksinema Cloudstream Eklentileri",
       "authors": [
