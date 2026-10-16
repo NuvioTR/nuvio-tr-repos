@@ -126,6 +126,23 @@
       }
     },
     {
+      "id": "plugin-dexter",
+      "name": "Dexter.pw",
+      "authors": [
+        "justemir84"
+      ],
+      "description": "Dexter.pw Nuvio Eklentileri.",
+      "repoUrl": "https://github.com/justemir84/nuvio-dexter-plugin",
+      "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/justemir84/nuvio-dexter-plugin/main/manifest.json",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
       "id": "plugin-manitux-cs",
       "name": "Manitux Cloudstream Eklentileri",
       "authors": [
