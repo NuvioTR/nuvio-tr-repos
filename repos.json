@@ -8,7 +8,7 @@
       ],
       "description": "izlelan eklentileri için uyumlu TMDB ve Youtube tabanlı katalog",
       "repoUrl": "https://github.com/ayruki",
-      "iconUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/s/28/28479.jpg?1789744475",
       "manifestUrl": "https://katalog.izlelan.com/manifest.json",
       "dependencies": [
         "plugin-izlelan"
@@ -22,7 +22,7 @@
       ],
       "description": "izlemeli.com Nuvio Kataloğu",
       "repoUrl": "https://github.com/izlemeli",
-      "iconUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/14/14708.jpg?1791761080",
       "manifestUrl": "https://izlemeli.github.io/nuvio/tr/manifest.json"
     }
   ],
@@ -35,7 +35,7 @@
       ],
       "description": "izlemeli.com Nuvio Kolleksiyonları.",
       "repoUrl": "https://github.com/izlemeli",
-      "iconUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/14/14708.jpg?1791761080",
       "collectionUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json"
     }
   ],
@@ -65,7 +65,7 @@
       ],
       "description": "izlelan kataloğu ile tam uyumlu eklentiler.",
       "repoUrl": "https://github.com/ayruki",
-      "iconUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/s/28/28479.jpg?1789744475",
       "manifestUrl": "https://izlelan.com/manifest.json",
       "supports": {
         "stream": true,
