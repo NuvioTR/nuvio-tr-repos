@@ -131,7 +131,7 @@
       "authors": [
         "justemir84"
       ],
-      "description": "Dexter.pw Nuvio Eklentileri.",
+      "description": "Dexter.pw Nuvio Eklentileri. Türkçe dublaj içermez. Sadece altyazılı içerik sağlar.",
       "repoUrl": "https://github.com/justemir84/nuvio-dexter-plugin",
       "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
       "manifestUrl": "https://raw.githubusercontent.com/justemir84/nuvio-dexter-plugin/main/manifest.json",
@@ -257,7 +257,7 @@
       }
     },
     {
-      "id": "plugin-neo",
+      "id": "plugin-neo-cs",
       "name": "NeO Cloudstream Eklentileri",
       "authors": [
         "neowatch"
