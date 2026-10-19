@@ -26,6 +26,18 @@
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/14/14708.jpg?1791761080",
       "manifestUrl": "https://izlemeli.github.io/nuvio/tr/manifest.json",
       "origin": "Nuvio"
+    },
+    {
+      "id": "catalog-jasoelys",
+      "name": "jasoelys Katalog",
+      "authors": [
+        "jasoelys"
+      ],
+      "description": "Jasoelys Nuvio Kataloğu",
+      "repoUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/18/18820.jpg?1790147561",
+      "manifestUrl": "https://katalog.jasoelys.workers.dev/manifest.json",
+      "origin": "Nuvio"
     }
   ],
   "collections": [
@@ -150,6 +162,18 @@
         "search": false,
         "comments": false
       }
+    },
+    {
+      "id": "plugin-jasoelys",
+      "name": "Jasoelys",
+      "authors": [
+        "jasoelys"
+      ],
+      "description": "Jasoelys Nuvio Eklentileri",
+      "repoUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/18/18820.jpg?1790147561",
+      "manifestUrl": "https://nuvio.jasoelys.workers.dev/manifest.json",
+      "origin": "Nuvio"
     },
     {
       "id": "plugin-manitux-cs",
