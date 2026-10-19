@@ -173,7 +173,13 @@
       "repoUrl": "",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/18/18820.jpg?1790147561",
       "manifestUrl": "https://nuvio.jasoelys.workers.dev/manifest.json",
-      "origin": "Nuvio"
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
     },
     {
       "id": "plugin-manitux-cs",
