@@ -1,0 +1,318 @@
+{
+  "catalogs": [
+    {
+      "id": "catalog-izlelan",
+      "name": "izlelan Katalog",
+      "authors": [
+        "ayruki"
+      ],
+      "description": "izlelan eklentileri için uyumlu TMDB ve Youtube tabanlı katalog",
+      "repoUrl": "https://github.com/ayruki",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/s/28/28479.jpg?1789744475",
+      "manifestUrl": "https://katalog.izlelan.com/manifest.json",
+      "origin": "Nuvio",
+      "dependencies": [
+        "plugin-izlelan"
+      ]
+    },
+    {
+      "id": "catalog-izlemeli",
+      "name": "izlemeli.com Katalog",
+      "authors": [
+        "izlemeli"
+      ],
+      "description": "izlemeli.com Nuvio Kataloğu",
+      "repoUrl": "https://github.com/izlemeli",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/14/14708.jpg?1791761080",
+      "manifestUrl": "https://izlemeli.github.io/nuvio/tr/manifest.json",
+      "origin": "Nuvio"
+    },
+    {
+      "id": "catalog-jasoelys",
+      "name": "jasoelys Katalog",
+      "authors": [
+        "jasoelys"
+      ],
+      "description": "Jasoelys Nuvio Kataloğu",
+      "repoUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/18/18820.jpg?1790147561",
+      "manifestUrl": "https://katalog.jasoelys.workers.dev/manifest.json",
+      "origin": "Nuvio"
+    }
+  ],
+  "collections": [
+    {
+      "id": "collection-izlemeli",
+      "name": "izlemeli.com Koleksiyon",
+      "authors": [
+        "izlemeli"
+      ],
+      "description": "izlemeli.com Nuvio Kolleksiyonları.",
+      "repoUrl": "https://github.com/izlemeli",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/14/14708.jpg?1791761080",
+      "collectionUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json",
+      "origin": "Nuvio"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "plugin-manitux",
+      "name": "Manitux Nuvio Eklentileri",
+      "authors": [
+        "manitux"
+      ],
+      "description": "Katalog, arama ve yorum desteği sağlayan eklentiler.",
+      "repoUrl": "https://github.com/manitux-app/nuvio-test-plugins",
+      "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/manitux-app/nuvio-test-plugins/refs/heads/main/manifest.json",
+      "origin": "Nuvio, NuvioTR",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": true
+      }
+    },
+    {
+      "id": "plugin-izlelan",
+      "name": "izlelan Eklentileri",
+      "authors": [
+        "ayruki"
+      ],
+      "description": "izlelan kataloğu ile tam uyumlu eklentiler.",
+      "repoUrl": "https://github.com/ayruki",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/s/28/28479.jpg?1789744475",
+      "manifestUrl": "https://izlelan.com/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-patron",
+      "name": "patr0n Eklentileri",
+      "authors": [
+        "patr0n"
+      ],
+      "description": "patr0n Nuvio Eklentileri.",
+      "repoUrl": "https://github.com/patr0nq/nuvioaddons",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/0/899.jpg?1777920089",
+      "manifestUrl": "https://raw.githubusercontent.com/patr0nq/nuvioaddons/refs/heads/main/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wiosinema",
+      "name": "Wiojelt WioSinema Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Wiojelt Nuvio Sinema Eklentileri.",
+      "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/main/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wiocinema",
+      "name": "Wiojelt WioCinema Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Wiojelt Nuvio Cinema Eklentileri.",
+      "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/main/wiocinema/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-dexter",
+      "name": "Dexter.pw",
+      "authors": [
+        "justemir84"
+      ],
+      "description": "Dexter.pw Nuvio Eklentileri. Türkçe dublaj içermez. Sadece altyazılı içerik sağlar.",
+      "repoUrl": "https://github.com/justemir84/nuvio-dexter-plugin",
+      "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/justemir84/nuvio-dexter-plugin/main/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-jasoelys",
+      "name": "Jasoelys",
+      "authors": [
+        "jasoelys"
+      ],
+      "description": "Jasoelys Nuvio Eklentileri",
+      "repoUrl": "",
+      "iconUrl": "https://forum.sinetech.tr/data/avatars/l/18/18820.jpg?1790147561",
+      "manifestUrl": "https://nuvio.jasoelys.workers.dev/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-manitux-cs",
+      "name": "Manitux Cloudstream Eklentileri",
+      "authors": [
+        "manitux"
+      ],
+      "description": "Katalog, arama ve yayın desteği sağlayan CS eklentileri.",
+      "repoUrl": "https://github.com/manitux-app/cs-plugins",
+      "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/manitux-app/cs-plugins/refs/heads/main/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!manitux-cs",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wiosinema-cs",
+      "name": "Wiojelt WioSinema Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Film, dizi, anime ve belgesel sağlayıcısı.",
+      "repoUrl": "https://github.com/Wiojelt/WioSinema",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioSinema/builds/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!wiosinema",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-turksinema-cs",
+      "name": "Wiojelt Turksinema Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Film, dizi, anime ve belgesel sağlayıcısı.",
+      "repoUrl": "https://github.com/Wiojelt/TurkSinema",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/TurkSinema/main/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!turksinema",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wiokids-cs",
+      "name": "Wiojelt Wiokids Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Çizgi film, animasyon ve çocuk içerikleri.",
+      "repoUrl": "https://github.com/Wiojelt/WioKids",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioKids/main/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!wiokids",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-wiojelt-wioanime-cs",
+      "name": "Wiojelt WioAnime Cloudstream Eklentileri",
+      "authors": [
+        "wiojelt"
+      ],
+      "description": "Anime içerikleri.",
+      "repoUrl": "https://github.com/Wiojelt/WioAnime",
+      "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/WioAnime/builds/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!wioanime",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-mrc",
+      "name": "MRC Cloudstream Eklentileri",
+      "authors": [
+        "lepotane"
+      ],
+      "description": "MRC CloudStream için Türkçe film,dizi ve anime eklentileri.",
+      "repoUrl": "https://github.com/lepotane/MRC-builds",
+      "iconUrl": "https://avatars.githubusercontent.com/u/6125722?v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/lepotane/MRC-builds/builds/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!mrc-cs",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
+      "id": "plugin-neo-cs",
+      "name": "NeO Cloudstream Eklentileri",
+      "authors": [
+        "neowatch"
+      ],
+      "description": "Türkçe içerikli eklenti havuzu.",
+      "repoUrl": "https://github.com/neoser1984/neowatch",
+      "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/neoser1984/neowatch/main/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!neowatch",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    }
+  ]
+}
