@@ -10,6 +10,7 @@
       "repoUrl": "https://github.com/ayruki",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/s/28/28479.jpg?1789744475",
       "manifestUrl": "https://katalog.izlelan.com/manifest.json",
+      "origin": "Nuvio",
       "dependencies": [
         "plugin-izlelan"
       ]
@@ -23,7 +24,8 @@
       "description": "izlemeli.com Nuvio Kataloğu",
       "repoUrl": "https://github.com/izlemeli",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/14/14708.jpg?1791761080",
-      "manifestUrl": "https://izlemeli.github.io/nuvio/tr/manifest.json"
+      "manifestUrl": "https://izlemeli.github.io/nuvio/tr/manifest.json",
+      "origin": "Nuvio"
     },
     {
       "id": "catalog-jasoelys",
@@ -34,7 +36,8 @@
       "description": "Jasoelys Nuvio Kataloğu",
       "repoUrl": "",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/18/18820.jpg?1790147561",
-      "manifestUrl": "https://katalog.jasoelys.workers.dev/manifest.json"
+      "manifestUrl": "https://katalog.jasoelys.workers.dev/manifest.json",
+      "origin": "Nuvio"
     }
   ],
   "collections": [
@@ -47,7 +50,8 @@
       "description": "izlemeli.com Nuvio Kolleksiyonları.",
       "repoUrl": "https://github.com/izlemeli",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/14/14708.jpg?1791761080",
-      "collectionUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json"
+      "collectionUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json",
+      "origin": "Nuvio"
     }
   ],
   "plugins": [
@@ -61,6 +65,7 @@
       "repoUrl": "https://github.com/manitux-app/nuvio-test-plugins",
       "iconUrl": "https://avatars.githubusercontent.com/u/201786579?s=200&v=4",
       "manifestUrl": "https://raw.githubusercontent.com/manitux-app/nuvio-test-plugins/refs/heads/main/manifest.json",
+      "origin": "Nuvio - NuvioTR",
       "supports": {
         "stream": true,
         "catalog": true,
@@ -78,6 +83,7 @@
       "repoUrl": "https://github.com/ayruki",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/s/28/28479.jpg?1789744475",
       "manifestUrl": "https://izlelan.com/manifest.json",
+      "origin": "Nuvio",
       "supports": {
         "stream": true,
         "catalog": false,
@@ -95,6 +101,7 @@
       "repoUrl": "https://github.com/patr0nq/nuvioaddons",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/0/899.jpg?1777920089",
       "manifestUrl": "https://raw.githubusercontent.com/patr0nq/nuvioaddons/refs/heads/main/manifest.json",
+      "origin": "Nuvio",
       "supports": {
         "stream": true,
         "catalog": false,
@@ -112,6 +119,7 @@
       "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/main/manifest.json",
+      "origin": "Nuvio",
       "supports": {
         "stream": true,
         "catalog": false,
@@ -129,6 +137,7 @@
       "repoUrl": "https://github.com/Wiojelt/Nuvio-Addons",
       "iconUrl": "https://avatars.githubusercontent.com/u/121122059?v=4",
       "manifestUrl": "https://raw.githubusercontent.com/Wiojelt/Nuvio-Addons/main/wiocinema/manifest.json",
+      "origin": "Nuvio",
       "supports": {
         "stream": true,
         "catalog": false,
@@ -146,6 +155,7 @@
       "repoUrl": "https://github.com/justemir84/nuvio-dexter-plugin",
       "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
       "manifestUrl": "https://raw.githubusercontent.com/justemir84/nuvio-dexter-plugin/main/manifest.json",
+      "origin": "Nuvio",
       "supports": {
         "stream": true,
         "catalog": false,
@@ -163,6 +173,7 @@
       "repoUrl": "",
       "iconUrl": "https://forum.sinetech.tr/data/avatars/l/18/18820.jpg?1790147561",
       "manifestUrl": "https://nuvio.jasoelys.workers.dev/manifest.json",
+      "origin": "Nuvio",
       "supports": {
         "stream": true,
         "catalog": false,
