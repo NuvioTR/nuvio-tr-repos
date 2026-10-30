@@ -313,6 +313,25 @@
         "search": true,
         "comments": false
       }
+    },
+    {
+      "id": "plugin-bigbullapp-cs",
+      "name": "BigBullApp Cloudstream Eklentileri",
+      "authors": [
+        "F0Rextasy"
+      ],
+      "description": "44 Türkçe film, dizi, anime ve canlı TV sağlayıcısı. Türkçe dublaj/altyazı, kategori ayarları ve kalite seçimi.",
+      "repoUrl": "https://github.com/F0Rextasy/bigbullapp-cs",
+      "iconUrl": "https://github.com/F0Rextasy.png",
+      "manifestUrl": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/master/repo.json",
+      "origin": "Cloudstream",
+      "shortCode": "!bigbullapp",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
     }
   ]
 }
