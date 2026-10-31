@@ -182,6 +182,24 @@
       }
     },
     {
+      "id": "plugin-burhanb3",
+      "name": "burhanb3",
+      "authors": [
+        "burhanb3"
+      ],
+      "description": "burhanb3 Nuvio Eklentileri",
+      "repoUrl": "https://github.com/burhanb3/nuvio-tr-hd",
+      "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
+      "manifestUrl": "https://burhanb3.github.io/nuvio-tr-hd/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
       "id": "plugin-manitux-cs",
       "name": "Manitux Cloudstream Eklentileri",
       "authors": [
