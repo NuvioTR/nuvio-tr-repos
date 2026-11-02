@@ -200,6 +200,24 @@
       }
     },
     {
+      "id": "plugin-cvnflix",
+      "name": "CVNFlix",
+      "authors": [
+        "onrcvndev"
+      ],
+      "description": "CVNFLIX Streams sağlayıcılarının Nuvio'ya uyarlanmış hali.",
+      "repoUrl": "https://github.com/onrcvndev/nuvio-plugin-tr",
+      "iconUrl": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/onrcvndev/nuvio-plugin-tr/main/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": false,
+        "search": false,
+        "comments": false
+      }
+    },
+    {
       "id": "plugin-manitux-cs",
       "name": "Manitux Cloudstream Eklentileri",
       "authors": [
