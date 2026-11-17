@@ -218,6 +218,24 @@
       }
     },
     {
+      "id": "plugin-tvmatik",
+      "name": "TVMatik",
+      "authors": [
+        "onrcvndev"
+      ],
+      "description": "TVMatik eklenti Deposu",
+      "repoUrl": "https://github.com/tvmatik/nuviotr-live",
+      "iconUrl": "https://avatars.githubusercontent.com/u/344905757?s=60&v=4",
+      "manifestUrl": "https://raw.githubusercontent.com/tvmatik/nuviotr-live/refs/heads/main/manifest.json",
+      "origin": "Nuvio",
+      "supports": {
+        "stream": true,
+        "catalog": true,
+        "search": true,
+        "comments": false
+      }
+    },
+    {
       "id": "plugin-manitux-cs",
       "name": "Manitux Cloudstream Eklentileri",
       "authors": [
